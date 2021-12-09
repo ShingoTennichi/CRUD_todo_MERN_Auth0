@@ -1,0 +1,85 @@
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 100px;
+}
+
+.contents-fixed{
+
+    position: fixed;
+}
+
+.add-btn {
+}
+
+.contents-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 300px;
+}
+
+.contents-left input{
+    display: block;
+    width: 300px;
+    height: 40px;
+    padding: 0 8px;
+    font-size: 16px;
+    margin: 30px 0;
+    border-color: rgba(0,0,0,0);
+    border-radius: 5px;
+    outline: none;
+}
+
+.contents-right {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(220,220,220,0.5);
+    width: 600px;
+    height: 500px;
+    overflow: auto;
+    margin: 10px 0;
+}
+
+.content .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .item .btn:active {
+    background-color: #333;
+    color: #fff;
+}
+
+.text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.todo {
+    background-color: rgba(244, 208, 63, 0.4);
+    width: 100%;
+    padding: 5px 20px;
+    margin: 10px 0;
+}
+
+.add-btn {
+    background-color: #cdcdcd;
+    width: 100px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.add-btn:hover {
+
+}
+
+.center {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}

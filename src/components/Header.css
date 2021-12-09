@@ -1,0 +1,23 @@
+.header-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.header-space {
+    height: 90px;
+}
+
+.header-container {
+    
+}
+
+
+.header-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
